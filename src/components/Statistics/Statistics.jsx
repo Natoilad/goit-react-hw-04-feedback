@@ -29,13 +29,13 @@ export const Statistics = ({
 };
 
 Statistics.propTypes = {
-  options: PropTypes.arrayOf(PropTypes.oneOf(['good', 'neutral', 'bad']))
-    .isRequired,
-  statistic: PropTypes.shape({
-    good: PropTypes.number.isRequired,
-    neutral: PropTypes.number.isRequired,
-    bad: PropTypes.number.isRequired,
-  }).isRequired,
-  total: PropTypes.number.isRequired,
+  // options: PropTypes.arrayOf(PropTypes.oneOf(['good', 'neutral', 'bad']))
+  // .isRequired,
+  // statistic: PropTypes.shape({
+  //   good: PropTypes.number.isRequired,
+  //   neutral: PropTypes.number.isRequired,
+  //   bad: PropTypes.number.isRequired,
+  // }).isRequired,
+  total: PropTypes.func.isRequired,
   positivePercentage: PropTypes.func.isRequired,
 };

@@ -11,6 +11,7 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
             key={i}
             type="button"
             onClick={() => {
+              // console.log(name);
               onLeaveFeedback(name);
             }}
           >
