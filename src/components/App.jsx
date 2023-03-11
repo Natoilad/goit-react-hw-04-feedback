@@ -32,7 +32,7 @@ export default function App() {
         console.log('Invalid subscription type');
         break;
     }
-    console.log(param);
+    // console.log(param);
     // setGood(prevGood => prevGood + 1);
     // setNeutral(prevNeutral => prevNeutral + 1);
     // setBad(prevBad => prevBad + 1);
